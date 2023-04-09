@@ -18,9 +18,9 @@ struct DetailEditView: View {
                 HStack {
                     Slider(value: $data.lengthInMinutes, in: 5...30, step:1) {
                      Text("Length")
-                    }
+                    }.accessibilityLabel("\(Int(data.lengthInMinutes)) minutes")
                     Spacer()
-                    Text("\(Int(data.lengthInMinutes)) minutes")
+                    Text("\(Int(data.lengthInMinutes)) minutes").accessibilityHidden(true)
                 }
             }
             Section(header: Text("Attendees")) {
@@ -40,6 +40,7 @@ struct DetailEditView: View {
                         }
                     }) {
                         Image(systemName: "plus.circle.fill")
+                            .accessibilityLabel("Add attendee")
                     }.disabled(newAttendeeName.isEmpty)
                 }
             }

@@ -70,6 +70,7 @@
 				A0771467297530B100145F04 /* ScrumdingerApp.swift */,
 				A0ECEA2F2976673000F51BBD /* CardView.swift */,
 				A09663532977C1A600F0BB0F /* ScrumsView.swift */,
+				A0D980CC29E3627A00C224BB /* DetailEditView.swift */,
 				A0A2102C29C80031006B54A3 /* DetailView.swift */,
 				A0771469297530B100145F04 /* MeetingView.swift */,
 				A077146B297530B100145F04 /* Assets.xcassets */,
@@ -99,7 +100,6 @@
 				A0818BAC2975D69000145043 /* Theme.swift */,
 				A0ECEA31297668C600F51BBD /* TrailingIconLabelStyle.swift */,
 				A0818BAE2975D79200145043 /* DailyScrum.swift */,
-				A0D980CC29E3627A00C224BB /* DetailEditView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
